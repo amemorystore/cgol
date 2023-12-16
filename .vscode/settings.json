@@ -1,0 +1,27 @@
+{
+    "Lua.diagnostics.globals": [
+        "love",
+        "world",
+        "world_meta",
+        "button",
+        "button_meta",
+        "button_pressed",
+        "screen",
+        "game_started",
+        "game_updateRate",
+        "game_tick",
+        "game_cellSize",
+        "m",
+        "sliders",
+        "buttons",
+        "live_cells",
+        "clear_world",
+        "resize",
+        "slider",
+        "slider_meta",
+        "slider_pressed",
+        "color_summ",
+        "normalize_color",
+        "color_dev"
+    ]
+}
