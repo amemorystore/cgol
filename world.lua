@@ -1,5 +1,5 @@
---world.lua
--- Holds all game logic and methods related to the world
+-- world.lua
+-- Holds all game logic and methods related to the world as if XR
 
 world = {}
 
