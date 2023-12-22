@@ -1,13 +1,3 @@
---	https://love2d.org/forums/viewtopic.php?t=40669
---	autor: veethree
-
---	updated by darkfrei to 11.3:
---	added 'r' to random the map
---	map is closed to torus topology
---	resize doesn't delete all dots
---	added GUI to start, clear and random
-
-
 screen = {
 		w = love.graphics.getWidth(),
 		h = love.graphics.getHeight()
