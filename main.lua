@@ -1,4 +1,4 @@
-
+--[[#.       #]]--
 
 screen = {
 		w = love.graphics.getWidth(),
