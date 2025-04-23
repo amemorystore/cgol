@@ -41,16 +41,6 @@ function button:draw()
 	love.graphics.print(self.text, self.x, self.y)
 end
 
---function button:mouseOver()
---	local x, y = love.mouse.getPosition()
---	if x > self.x and x < self.x + self.w and y > self.y and y < self.y + self.h then
---		self.isSelected = true
-----		return true
---	else
---		self.isSelected = false
-----		return false
---end
-
 
 function button:mouseOver()
 	local x, y = love.mouse.getPosition()
@@ -73,9 +63,3 @@ function button:mouseReleased()
 	self.isPressed = false
 	button_pressed = false
 end
-
---function button:mouseDown()
---	if self.isPressed then
---		return true
---	end
---end
