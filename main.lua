@@ -6,7 +6,7 @@ screen = {
 	}
 
 
---Game Settings
+--Settings
 game_started = false
 game_updateRate = 12
 game_tick = 0
@@ -94,7 +94,7 @@ function love.draw()
 	--Drawing world
 	m:draw()
 
-	--Drawing UI
+	--UI
 
 	--Sliders
 	for i,v in ipairs(sliders) do
